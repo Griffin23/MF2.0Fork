@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { initFederation } from '@angular-architects/module-federation';
 
 @Component({
     selector: 'app-home',
@@ -10,6 +11,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('*****');
+    initFederation({});
   }
 
 }
