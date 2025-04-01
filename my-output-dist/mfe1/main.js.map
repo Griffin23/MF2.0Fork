@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":";;;;;;;;AAAA,oJAAqB,CACnBA,KAAK,CAACC,GAAG,IAAIC,OAAO,CAACC,KAAK,CAACF,GAAG,CAAC,CAAC","sources":["./projects/mfe1/src/main.ts"],"sourcesContent":["import('./bootstrap')\n\t.catch(err => console.error(err));\n"],"names":["catch","err","console","error"],"sourceRoot":"webpack:///","x_google_ignoreList":[]}

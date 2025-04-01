@@ -1,0 +1,50 @@
+{
+  "id": "mfe1",
+  "name": "mfe1",
+  "metaData": {
+    "name": "mfe1",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "mf-demo"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "@mf-types.zip",
+      "api": "@mf-types.d.ts"
+    },
+    "globalName": "mfe1",
+    "pluginVersion": "0.11.2",
+    "prefetchInterface": false,
+    "publicPath": ""
+  },
+  "shared": [],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./Module",
+      "id": "mfe1:Module",
+      "name": "Module",
+      "requires": [],
+      "file": "projects\\mfe1\\src\\app\\flights\\flights.module.ts",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Module.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

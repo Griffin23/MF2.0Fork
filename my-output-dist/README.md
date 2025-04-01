@@ -1,0 +1,1 @@
+This folder contains what I got from npm run build:mfe1.
