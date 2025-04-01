@@ -1,13 +1,17 @@
-const { shareAll, withModuleFederationPlugin } = require('@angular-architects/module-federation/webpack');
+const {
+  ModuleFederationPlugin,
+} = require("@module-federation/enhanced/webpack");
 
-module.exports = withModuleFederationPlugin({
-
-  remotes: {
-    "mfe1": "http://localhost:3000/remoteEntry.js",    
-  },
-
-  shared: {
-    ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
-  },
-
-});
+module.exports = {
+  plugins: [
+    new ModuleFederationPlugin({
+      name: 'my_host',
+      remotes: {
+      },
+    
+      shared: {
+      },
+    
+    }),
+  ]
+};
